@@ -1,15 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap');
 body{
-    margin:0;
     background-color:rgb(255,244,242);
     font-family: 'Oswald', sans-serif;
-}
-.container{
-    width:700px;
-    margin:12px ;
+    margin:auto;
+    text-align:center;
+
 
 }
-.random-quote{
+.container{
+}
+.quotes{
+    background-color:white;
+    padding:20px;
+    border-radius:16px;
+    margin:20px 0;
 
 }
 .btn{
@@ -32,4 +36,34 @@ body{
     color:black;
     cursor:pointer
 }
-.author
+.random-author{
+    
+    color:gray;
+    margin-top:0px;
+
+}
+#random-qoute{
+    margin-bottom:2px;
+}
+.nav{
+    padding:12px 60px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:12px 0px;
+}
+.logo{
+    text-decoration:none;
+    font-weight:bold;
+    font-size:22px;
+    color:tomato;
+}
+.nav-btn{
+    color:white;
+    padding:6px 22px;
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+    background-color:tomato;
+    font-size:16px;
+}

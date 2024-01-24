@@ -7,13 +7,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="nav">
+        <a class="logo">
+            Pratham Quotes
+        </a>
+        <div class="nav-btn">
+            Random Qoutes
+        </div>
+    </div>
+    <div class="intro">
+        <h1>Welcome to the quotes application </h1>
+    </div>
     <div class="container">
         <div id="author-container">
 
         </div>
         <div class="random-quote">
             <h1 id="random-qoute"></h1>
+            <p id="random-author" class="random-author"></p>
             <button class="btn" onclick="fetchRandomQuote()">Next Quote</button>
+        </div>
+        <h1 id="author-name"></h1>
+        <div id="requestedQuotesContainer">
         </div>
     </div>
     <script src="app.js"></script>
